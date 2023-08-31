@@ -1,0 +1,29 @@
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.arrow-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user-name {
+  color: #ffffff;
+}
+.image {
+  height: 100px;
+  width: 100px;
+}
+.arrow {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border-width: 0px;
+}
